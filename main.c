@@ -20,7 +20,7 @@
 
 int main(int argc,char **argv){
 	//Declaration of variables
-	FILE *fp;	//It is used only if you define an extern file passed in prompt or terminal
+	FILE *fp=NULL;	//It is used only if you define an extern file passed in prompt or terminal
 	const char *userName="tux", *password="linux";
 	char buffer1[100], buffer2[100];
 	int attempts=0;
