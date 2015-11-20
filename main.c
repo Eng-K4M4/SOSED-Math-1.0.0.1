@@ -98,6 +98,8 @@ int main(int argc,char **argv){
 			fscanf(fp,"%s",buffer1);
 			printf("%s\n",buffer1);
 		}while(strcmp(buffer1,"exit()"));
+		fflush(fp);
+		fclose(fp);
 	}
 	
 	return 0;
